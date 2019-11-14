@@ -58,10 +58,6 @@
                             <div class="col-lg-12 col-md-12 text-center">
                                 <button type="button" class="btn btn-outline-primary btn-block text-uppercase mb-3" onclick="showEditProfileForm()">
                                 Edit Profile<small></small></button>
-
-                                
-                                
-
                                 <button type="button" class="btn btn-outline-secondary text-uppercase" onclick="signOut()">
                                 Sign Out<small></small></button>
                             </div>
@@ -71,7 +67,6 @@
                             <div class="form-group">
                                 <label for="userFullName">Name<span class="text-danger ml-1">*</span></label>
                                 <input type="text" class="form-control" id="userFullName" onblur="checkUserFullName()" placeholder="Firma Adı">
-                                <small id="userFullNameError" class="form-text text-danger">Sadece harf ve 5 karakterden fazla olmalı.</small>
                             </div>
                             <div class="form-group">
                                 <label for="userSurname">Surname<span class="text-danger ml-1">*</span></label>
@@ -93,8 +88,7 @@
                             <div class="form-group">
                                 <label for="userBio">Biography<span class="text-danger ml-1">*</span></label>
                                 <textarea class="form-control" id="userBio" rows="4" onblur="checkUserBio()"></textarea>
-                                <small id="userBioError" class="form-text text-danger">Lütfen en az 200 karakter yazın.</small>
-                            </div>
+                             </div>
                             <button type="button" class="btn btn-outline-primary btn-block text-uppercase mb-3" onclick="saveProfile()">Save</button>
                             <button type="button" class="btn btn-outline-secondary btn-block text-uppercase" onclick="hideEditProfileForm()">Cancel</button>
                         </div>
@@ -103,10 +97,6 @@
             </div>
         </div>
     </div>
-
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
